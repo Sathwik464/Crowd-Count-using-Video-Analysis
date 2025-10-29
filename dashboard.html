@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard | Crowd Count</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="glow"></div>
+  <div class="container">
+    <h1>Welcome to your Dashboard 🚀</h1>
+    <p>You’ve successfully logged in.</p>
+    <button onclick="logout()">Logout</button>
+  </div>
+  <script>
+    function logout() {
+      localStorage.removeItem("loggedInUser");
+      window.location.href = "login.html";
+    }
+  </script>
+</body>
+</html>
