@@ -1,0 +1,8 @@
+- Navigate to the backend folder
+- cd backend
+- use command:- node server.js
+- This starts the frontend, backend server along with mongoDB database
+- Now the user can register himself
+- Once registered, the user can login by his provided credentials
+- From here the user can access ths Dashboard
+- User's credentials are stored in the database
